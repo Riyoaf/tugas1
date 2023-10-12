@@ -7,18 +7,26 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: linear-gradient(45deg, #007BFF, #00BFFF);
             text-align: center;
             color: #000; /* Mengubah warna teks konten menjadi hitam */
-            animation: backgroundAnimation 10s linear infinite alternate; /* Animasi latar belakang */
+            animation: backgroundTransition 10s linear infinite;
         }
 
-        @keyframes backgroundAnimation {
+        @keyframes backgroundTransition {
             0% {
-                background-position: 0 0;
+                background: #007BFF;
+            }
+            25% {
+                background: #00BFFF;
+            }
+            50% {
+                background: #FFC107;
+            }
+            75% {
+                background: #FF5722;
             }
             100% {
-                background-position: 100% 100%;
+                background: #007BFF;
             }
         }
 
