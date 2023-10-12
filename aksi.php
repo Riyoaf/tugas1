@@ -7,26 +7,31 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
+            background-color: #f0f0f0; /* Mengubah latar belakang menjadi abu-abu muda */
             text-align: center;
         }
 
         .container {
-            background-color: #fff;
+            background-color: #ffffff; /* Mengubah latar belakang kontainer menjadi putih */
             border-radius: 8px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
             max-width: 400px;
             margin: 20px auto;
             padding: 20px;
         }
 
         h1 {
-            color: #007BFF;
+            color: #007BFF; /* Mengubah warna judul menjadi biru */
         }
 
         p {
             text-align: left;
-            margin: 5px 0;
+            margin: 10px 0; /* Mengubah jarak antar paragraf */
+            color: #333; /* Mengubah warna teks paragraf menjadi abu-abu lebih gelap */
+        }
+
+        strong {
+            color: #007BFF; /* Mengubah warna teks yang ditebalkan menjadi biru */
         }
     </style>
 </head>
