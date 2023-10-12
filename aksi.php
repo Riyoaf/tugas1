@@ -8,26 +8,9 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            color: #000; /* Mengubah warna teks konten menjadi hitam */
-            animation: backgroundTransition 10s linear infinite;
-        }
-
-        @keyframes backgroundTransition {
-            0% {
-                background: #007BFF;
-            }
-            25% {
-                background: #00BFFF;
-            }
-            50% {
-                background: #FFC107;
-            }
-            75% {
-                background: #FF5722;
-            }
-            100% {
-                background: #007BFF;
-            }
+            color: #000;
+            background-image: url('path/to/your-image.jpg'); 
+            background-size: cover; 
         }
 
         .container {
@@ -40,7 +23,7 @@
         }
 
         h1 {
-            color: #007BFF; /* Mengubah warna teks judul menjadi biru */
+            color: #007BFF;
         }
 
         p {
