@@ -7,12 +7,12 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0; /* Mengubah latar belakang menjadi abu-abu muda */
+            background-color: #f0f0f0; 
             text-align: center;
         }
 
         .container {
-            background-color: #ffffff; /* Mengubah latar belakang kontainer menjadi putih */
+            background-color: #ffffff; 
             border-radius: 8px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
             max-width: 400px;
@@ -21,17 +21,17 @@
         }
 
         h1 {
-            color: #007BFF; /* Mengubah warna judul menjadi biru */
+            color: #007BFF; 
         }
 
         p {
             text-align: left;
-            margin: 10px 0; /* Mengubah jarak antar paragraf */
-            color: #333; /* Mengubah warna teks paragraf menjadi abu-abu lebih gelap */
+            margin: 10px 0; 
+            color: #333; 
         }
 
         strong {
-            color: #007BFF; /* Mengubah warna teks yang ditebalkan menjadi biru */
+            color: #007BFF; 
         }
     </style>
 </head>
