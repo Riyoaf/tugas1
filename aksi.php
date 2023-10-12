@@ -7,12 +7,13 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
+            background: linear-gradient(45deg, #007BFF, #00BFFF); /* Menggunakan gradien warna latar belakang */
             text-align: center;
+            color: #fff; /* Mengubah warna teks menjadi putih */
         }
 
         .container {
-            background-color: #fff;
+            background-color: rgba(255, 255, 255, 0.8); /* Latar belakang semi-transparan putih */
             border-radius: 8px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
             max-width: 400px;
