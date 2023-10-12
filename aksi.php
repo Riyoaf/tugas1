@@ -7,13 +7,17 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: linear-gradient(45deg, #007BFF, #00BFFF); /* Menggunakan gradien warna latar belakang */
+            background-image: 
+                linear-gradient(45deg, #FFC107, #FF5722 25%, #FF9800 50%, #FFC107 75%, #FF5722),
+                linear-gradient(45deg, #1565C0, #2196F3 25%, #1976D2 50%, #64B5F6 75%, #42A5F5);
+            background-size: 20px 20px;
+            background-position: 0 0, 10px 10px;
             text-align: center;
-            color: #fff; /* Mengubah warna teks menjadi putih */
+            color: #fff;
         }
 
         .container {
-            background-color: rgba(255, 255, 255, 0.8); /* Latar belakang semi-transparan putih */
+            background-color: rgba(255, 255, 255, 0.8);
             border-radius: 8px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
             max-width: 400px;
@@ -22,7 +26,7 @@
         }
 
         h1 {
-            color: #007BFF;
+            color: #000;
         }
 
         p {
