@@ -9,7 +9,7 @@
             font-family: Arial, sans-serif;
             text-align: center;
             color: #000;
-            background-image: url('path/to/your-image.jpg'); 
+            background-image: url('IMG20200618160227.jpg'); 
             background-size: cover; 
         }
 
