@@ -7,13 +7,19 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-image: 
-                linear-gradient(45deg, #FFC107, #FF5722 25%, #FF9800 50%, #FFC107 75%, #FF5722),
-                linear-gradient(45deg, #1565C0, #2196F3 25%, #1976D2 50%, #64B5F6 75%, #42A5F5);
-            background-size: 20px 20px;
-            background-position: 0 0, 10px 10px;
+            background: linear-gradient(45deg, #007BFF, #00BFFF);
             text-align: center;
-            color: #fff;
+            color: #000; /* Mengubah warna teks konten menjadi hitam */
+            animation: backgroundAnimation 10s linear infinite alternate; /* Animasi latar belakang */
+        }
+
+        @keyframes backgroundAnimation {
+            0% {
+                background-position: 0 0;
+            }
+            100% {
+                background-position: 100% 100%;
+            }
         }
 
         .container {
@@ -26,7 +32,7 @@
         }
 
         h1 {
-            color: #000;
+            color: #007BFF; /* Mengubah warna teks judul menjadi biru */
         }
 
         p {
